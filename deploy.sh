@@ -13,7 +13,7 @@ git init  #执行这些git命令
 git add -A
 git commit -m 'deploy'
 
-git push -f https://github.com/loyalhh/hhdoc.git master:github-pages  #提交到这个分支
+git push -f git@github.com:loyalhh/hhdoc.git master:github-pages  #提交到这个分支
 
 cd -
 
