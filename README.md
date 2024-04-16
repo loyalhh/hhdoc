@@ -1,4 +1,4 @@
-# dontkai-notes
+# hho-notes
 
 搭建个人 vitepress，用于记录笔记
 

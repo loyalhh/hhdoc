@@ -13,8 +13,8 @@ export default defineConfig({
     ], // 字体
   ],
   lang: "zh-CN",
-  title: "DontKai",
-  description: "DontKai 的documents",
+  title: "Hho",
+  description: "Hho 的documents",
   lastUpdated: true,
   markdown: {
     image: {
@@ -27,9 +27,7 @@ export default defineConfig({
       provider: "local",
     },
     nav: navConf,
-    socialLinks: [
-      { icon: "github", link: "https://github.com/DontKai/dontkai-notes" },
-    ],
+    socialLinks: [{ icon: "github", link: "https://github.com/loyalhh/hhdoc" }],
     sidebar: sidebarConf,
     outline: {
       level: [2, 6],
@@ -49,7 +47,7 @@ export default defineConfig({
     },
     footer: {
       message: "基于 MIT 许可发布",
-      copyright: "Copyright © 2024-present DontKai",
+      copyright: "Copyright © 2024-present Hho",
     },
   },
 });
