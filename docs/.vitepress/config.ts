@@ -4,7 +4,7 @@ import navConf from "./router/navConf";
 
 export default defineConfig({
   // head 会被渲染成 <link .... >
-  base: "/hhdoc/",
+  base: "/hhdoc/", // 部署到github pages
   head: [
     ["link", { rel: "icon", href: "/hhdoc/hero.png" }], // 页头icon
     [
@@ -13,26 +13,27 @@ export default defineConfig({
     ], // 字体
   ],
   lang: "zh-CN",
-  title: "Hho",
+  title: "Hho", //站点标题
+  appearance: true, //主题切换
   description: "Hho 的documents",
-  lastUpdated: true,
+  lastUpdated: true, //最后更新时间
   markdown: {
     image: {
       lazyLoading: true,
     },
   },
   themeConfig: {
-    logo: "/hero.png",
+    logo: "/hero.png", //站点logo
     search: {
       provider: "local",
-    },
-    nav: navConf,
-    socialLinks: [{ icon: "github", link: "https://github.com/loyalhh/hhdoc" }],
-    sidebar: sidebarConf,
+    }, //搜索
+    nav: navConf, //导航栏
+    socialLinks: [{ icon: "github", link: "https://github.com/loyalhh/hhdoc" }], //社交链接
+    sidebar: sidebarConf, //侧边栏
     outline: {
-      level: [2, 6],
+      level: [2, 6], //意味着只显示从二级标题（##）到六级标题（######）的内容
       label: "目录",
-    },
+    }, //目录
     docFooter: {
       prev: "上一页",
       next: "下一页",
