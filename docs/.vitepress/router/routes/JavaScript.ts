@@ -134,6 +134,26 @@ export default [
         text: "运算符操作",
         link: "/page/frontend/JavaScript/7_OperatorOperations",
       },
+      {
+        text: "颜色RGB十六进制互转",
+        link: "/page/frontend/JavaScript/7_RgbOrHex",
+      },
+      {
+        text: "设置读取删除Cookie",
+        link: "/page/frontend/JavaScript/7_SetCookie",
+      },
+      {
+        text: "本地会话存储类操作",
+        link: "/page/frontend/JavaScript/7_MyCache",
+      },
+      {
+        text: "解析URL参数",
+        link: "/page/frontend/JavaScript/7_SearchParams",
+      },
+      {
+        text: "获取文件后缀名",
+        link: "/page/frontend/JavaScript/7_GetExt",
+      },
     ],
   },
   {
