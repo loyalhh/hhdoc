@@ -120,6 +120,10 @@ export default [
     items: [
       {
         text: "浏览器操作dom操作",
+        link: "/page/frontend/JavaScript/7_OperatorString",
+      },
+      {
+        text: "浏览器操作dom操作",
         link: "/page/frontend/JavaScript/7_WindowOrDomOrHtmlCss",
       },
       {
