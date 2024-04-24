@@ -119,7 +119,7 @@ export default [
     collapsed: false,
     items: [
       {
-        text: "浏览器操作dom操作",
+        text: "字符串处理方法",
         link: "/page/frontend/JavaScript/7_OperatorString",
       },
       {
